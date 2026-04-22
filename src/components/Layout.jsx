@@ -76,10 +76,10 @@ function Layout({children}){
 					  <div className="footer__col">
 						<h4>Menu</h4>
 						<ul>
-						  <li><a href="#flavors">Flavors</a></li>
-						  <li><a href="#builder">Build Your Own</a></li>
-						  <li><a href="#seasonal">Seasonal Scoops</a></li>
-						  <li><a href="#catering">Catering</a></li>
+						  <li><NavLink to="/flavors">Flavors</NavLink></li>
+						  <li><NavLink to="/build-yours">Build Your Own</NavLink></li>
+						  <li><NavLink to="/seasonal">Seasonal Scoops</NavLink></li>
+						  <li><NavLink to="/catering">Catering</NavLink></li>
 						</ul>
 					  </div>
 					  <div className="footer__col">
